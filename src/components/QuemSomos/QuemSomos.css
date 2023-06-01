@@ -11,7 +11,7 @@
 }
 
 .card {
-  margin-top: 50px;
+  margin-top: 40%;
   flex: 1;
   background: #f2f2f2;
   padding: 40px;
@@ -32,6 +32,7 @@ h1 {
 
 h3 {
   font-weight: 300;
+  color: #009790;
 }
 
 
@@ -44,14 +45,16 @@ h3 {
   left: 740px;
 }
 
-.tContent {
+.quemsomos-text {
   width: 90%;
   font-size: 18px;
-  color: #1f1f1f;
+  color: #131313
+  
 }
 
 .textContent {
   margin-top: 70px;
+  margin-bottom: 300px;
 }
 
 .imgContent {
