@@ -49,7 +49,7 @@ const QuemSomos = () => {
 				</div>
 
 				<div className="textContent">
-					<p className="tContent">
+					<p className="quemsomos-text">
 						Nossa História A GST ocupacional, é uma empresa especializada em
 						segurança e medicina do trabalho, iniciou suas atividades em janeiro
 						de 2019, estando sediada à Av. Mario Lazani, nº 565, Jardim América
@@ -59,13 +59,13 @@ const QuemSomos = () => {
 						recursos técnicos (equipamentos de avaliação) necessários para o
 						pleno desempenho das atividades a que se destina. <br />
 					</p>
-					<p className="tContent">
+					<p className="quemsomos-text">
 						Suas instalações e equipamentos permitem uma elaboração dos serviços
 						com qualidade e eficiência, além da agilidade para a entrega dos
 						serviços de medicina e segurança do trabalho. <br />
 					</p>
 
-					<p className="tContent">
+					<p className="quemsomos-text">
 						Os profissionais vinculados a GST têm como preocupação o seu
 						aprimoramento técnico e legal, buscando sempre o crescimento pessoal
 						e profissional, através de cursos de atualização e especialização
