@@ -1,7 +1,7 @@
 import './Navbar.css';
 import Logo from '../../assets/companyLogo.png';
 import { Button } from 'primereact/button';
-        
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 	return (
@@ -13,22 +13,22 @@ export default function Navbar() {
                 </div>
                                 
                 <div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>Home</a>
+                    <Link to="/" className='nav-item'>Home</Link>
                 </div>
                 <div className="col-12 md:col-2 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>Quem somos</a>
+                    <Link to="/quem-somos" className='nav-item'>Quem somos</Link>
                 </div>
                 <div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>Serviços</a>
+                    <Link to="/serviços" className='nav-item'>Serviços</Link>
                 </div>
                 <div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>Contato</a>
+                    <Link to="/contato" className='nav-item'>Contato</Link>
                 </div>
                 <div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>E-social</a>
+                    <Link to="/e-social" className='nav-item'>E-social</Link>
                 </div>
                 <div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-                    <a href="#" className='nav-item'>Blog</a>
+                    <Link to="/blog" className='nav-item'>Blog</Link>
                 </div>
                 <div className="h-full col-12 md:col-2 sm:col-6 flex align-content-center align-itens-center justify-content-center pt-5">
                     <Button label='Solicitar Orçamento' severity="success" className='nav-item' size='small'/>

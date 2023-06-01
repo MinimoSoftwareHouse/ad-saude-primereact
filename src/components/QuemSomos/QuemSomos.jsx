@@ -1,16 +1,10 @@
-import heroImg from '../../assets/heroImg.png';
 import './QuemSomos.css';
 
 const QuemSomos = () => {
 	return (
 		<>
 			<div className="containerQuemSomos">
-				<div className="imgContainer">
-					<img
-						src={heroImg}
-						alt=""
-					/>
-				</div>
+				
 				<div className="grid">
 					<div className="card">
 						<div className="card-content">

@@ -11,7 +11,8 @@
 }
 
 .card {
-  margin-top: 40%;
+  /* alterar isso daqui */
+  margin-top: 80em;
   flex: 1;
   background: #f2f2f2;
   padding: 40px;
@@ -55,17 +56,4 @@ h3 {
 .textContent {
   margin-top: 70px;
   margin-bottom: 300px;
-}
-
-.imgContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  margin-top: 50px;
-}
-
-img {
-  max-width: 100%;
 }
