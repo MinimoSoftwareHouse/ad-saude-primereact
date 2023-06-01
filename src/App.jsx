@@ -11,7 +11,7 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route exact path="/quem-somos" element={ <QuemSomos /> }> </Route>
-				{/* <Route exact path="/" element={<Navbar />}> </Route> */}
+				{/* Carregar outros componentes aqui */}
 			</Routes>
 			<Footer />
 		</Router>
