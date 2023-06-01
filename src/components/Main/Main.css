@@ -22,7 +22,7 @@
 
 .main-card-content {
   text-align: center;
-  color: black;
+  color: #131313;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h3 {
 .tContent {
   width: 90%;
   font-size: 18px;
-  color: #1f1f1f;
+  color: red;
   
 }
 
@@ -47,3 +47,11 @@ h3 {
 }
 
 
+.main-title {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.main-card-desc {
+    color: #009790;
+}
