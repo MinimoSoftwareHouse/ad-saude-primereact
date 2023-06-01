@@ -4,9 +4,12 @@
   align-items: flex-start;
   background-color: #fff;
   padding: 20px;
-  width: 100%;
   z-index: 999;
   margin-bottom: -140px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .column {
