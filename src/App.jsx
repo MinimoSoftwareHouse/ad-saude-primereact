@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar/Navbar.jsx';
 import Serviços from './components/Serviços/Serviços.jsx';
 import Treinamentos from './components/Treinamentos/Treinamentos.jsx';
 import QuemSomos from './components/QuemSomos/QuemSomos.jsx';
@@ -9,7 +10,8 @@ function App() {
 	return (
 		<>
 			<div className="app-container">
-				<QuemSomos />
+				<Navbar/>
+				{/* <QuemSomos /> */}
 			</div>
 			<Footer />
 		</>
