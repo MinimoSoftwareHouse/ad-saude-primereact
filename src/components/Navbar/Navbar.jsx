@@ -31,7 +31,7 @@ export default function Navbar() {
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
 					<Link
-						to="/serviços"
+						to="/servicos"
 						className="nav-item">
 						Serviços
 					</Link>
