@@ -1,13 +1,13 @@
 import './QuemSomos.css';
 
-const QuemSomos = () => {
+const QuemSomos = (props) => {
 	return (
 		<>
 			<div className="grid">
 				<div className="card">
 					<div className="card-content">
-						<h1>Missão</h1>
-						<h3>
+						<h1 className="card-title">props.title</h1>
+						<h3 className="card-description">
 							Oferecer serviços e produtos de Saúde, Segurança e Higiene
 							Ocupacional, que promovam melhores condições de trabalho, bem
 							estar social, qualidade de vida e aumento da produtividade nas
@@ -19,8 +19,8 @@ const QuemSomos = () => {
 
 				<div className="card">
 					<div className="card-content">
-						<h1>Visão</h1>
-						<h3>
+						<h1 className="card-title">Visão</h1>
+						<h3 className="card-description">
 							Trabalhamos para ser uma empresa diferenciada na prestação de
 							serviços de forma a garantir a nossos clientes, serviços de
 							qualidade com atendimento personalizado visando à necessidade de
@@ -31,8 +31,8 @@ const QuemSomos = () => {
 
 				<div className="card">
 					<div className="card-content">
-						<h1>Valores</h1>
-						<h3>
+						<h1 className="card-title">Valores</h1>
+						<h3 className="card-description">
 							Trabalho, Ética, Honestidade, Integridade, Inovação, Dinamismo,
 							Foco no cliente e Excelência no atendimento.
 						</h3>
@@ -51,11 +51,13 @@ const QuemSomos = () => {
 					recursos técnicos (equipamentos de avaliação) necessários para o pleno
 					desempenho das atividades a que se destina. <br />
 				</p>
+				<br />
 				<p className="quemsomos-text">
 					Suas instalações e equipamentos permitem uma elaboração dos serviços
 					com qualidade e eficiência, além da agilidade para a entrega dos
 					serviços de medicina e segurança do trabalho. <br />
 				</p>
+				<br />
 
 				<p className="quemsomos-text">
 					Os profissionais vinculados a GST têm como preocupação o seu
