@@ -1,7 +1,6 @@
 import './Home.css';
 import heroImg from '../../assets/heroImg.jpg';
-import QuemSomos from '../../components/QuemSomos/QuemSomos.jsx';
-import Serviços from '../../components/Serviços/Serviços.jsx';
+import ServiçosCard from '../../components/ServiçosCard/ServiçosCard.jsx';
 
 function Home() {
 	return (
@@ -17,7 +16,7 @@ function Home() {
 					alt="test"
 				/>
 			</div>
-			<QuemSomos />
+			<ServiçosCard />
 		</>
 	);
 }
