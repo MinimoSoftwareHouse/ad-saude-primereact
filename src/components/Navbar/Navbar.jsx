@@ -22,7 +22,7 @@ export default function Navbar() {
 						Home
 					</Link>
 				</div>
-				<div className="col-12 md:col-2 sm:col-3 flex justify-content-center">
+				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
 					<Link
 						to="/quem-somos"
 						className="nav-item">
