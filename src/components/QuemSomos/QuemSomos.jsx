@@ -4,7 +4,6 @@ const QuemSomos = () => {
 	return (
 		<>
 			<div className="containerQuemSomos">
-				
 				<div className="grid">
 					<div className="card">
 						<div className="card-content">
