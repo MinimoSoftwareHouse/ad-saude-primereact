@@ -3,8 +3,11 @@ import Logo from '../../assets/companyLogo.png';
 
 function Footer() {
 	return (
-		<>
-			<footer className="footer">
+		<div id="page-container">
+			<div id="content-wrap">{/* Your page content here */}</div>
+			<footer
+				id="footer"
+				className="footer">
 				<div className="column">
 					<img
 						src={Logo}
@@ -31,7 +34,7 @@ function Footer() {
 					</ul>
 				</div>
 			</footer>
-		</>
+		</div>
 	);
 }
 
