@@ -18,7 +18,7 @@ export default function Contato() {
 					<input
 						type="hidden"
 						name="_next"
-						value="http://localhost:5173/contato"
+						value="http://localhost:5173/obrigado"
 					/>
 					<input
 						type="text"
