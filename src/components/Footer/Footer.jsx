@@ -4,17 +4,15 @@ import Logo from '../../assets/companyLogo.jpg';
 function Footer() {
 	return (
 		<div id="page-container">
-			<div id="content-wrap">{/* Your page content here */}</div>
-			<footer
-				id="footer"
-				className="footer">
-				<div className="column">
+			<footer className="footer w-full grid align-content-center absolute	">
+				<div className="md:col-4 flex justify-content-start align-items-center">
 					<img
 						src={Logo}
 						alt="Company Logo"
+						className="footer-logo"
 					/>
 				</div>
-				<div className="column2">
+				<div className="md:col-2">
 					<h3>Menu</h3>
 					<ul>
 						<li>Home</li>
@@ -26,7 +24,7 @@ function Footer() {
 						<li>Blog</li>
 					</ul>
 				</div>
-				<div className="column2">
+				<div className="md:col-4">
 					<h3>Entre em Contato</h3>
 					<ul>
 						<li>WHATSAPP: (91) 98601-8137</li>

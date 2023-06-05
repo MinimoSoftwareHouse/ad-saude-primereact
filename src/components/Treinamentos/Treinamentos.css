@@ -1,7 +1,7 @@
 /* contact button */
 .button-64 {
   align-items: center;
-  background-image: linear-gradient(144deg,#2c71d7, #7d78ff 50%,#00DDEB);
+  background-color: #03B5AA;
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -29,7 +29,7 @@
 }
 
 .button-64 span {
-  background-color: rgb(5, 6, 45);
+  background-color: #00b997;
   padding: 16px 24px;
   border-radius: 6px;
   width: 20%;
