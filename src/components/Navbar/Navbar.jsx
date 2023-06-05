@@ -6,55 +6,56 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
 	return (
 		<>
-			<nav className="nav w-full grid justify-content-between align-content-between align-items-center m-0">
+			<nav className="nav w-full grid justify-content-center align-content-between align-items-center m-0">
 				<div className="col-6 md:col-2 flex justify-content-center">
 					<img
+						className="logo-navbar"
 						src={Logo}
 						alt="Company Logo"
 					/>
 				</div>
 
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/"
 						className="nav-item">
 						Home
-					</a>
+					</Link>
 				</div>
 				<div className="col-12 md:col-2 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/quem-somos"
 						className="nav-item">
 						Quem somos
-					</a>
+					</Link>
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/serviços"
 						className="nav-item">
 						Serviços
-					</a>
+					</Link>
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/contato"
 						className="nav-item">
 						Contato
-					</a>
+					</Link>
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/e-social"
 						className="nav-item">
 						E-social
-					</a>
+					</Link>
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<a
-						href="#"
+					<Link
+						to="/blog"
 						className="nav-item">
 						Blog
-					</a>
+					</Link>
 				</div>
 				<div className="h-full col-12 md:col-2 sm:col-6 flex align-content-center align-itens-center justify-content-center pt-5">
 					<Button

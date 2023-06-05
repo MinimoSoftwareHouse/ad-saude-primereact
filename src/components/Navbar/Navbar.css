@@ -8,12 +8,7 @@
     box-shadow: 0px 5px 13px 0px rgba(168, 168, 168, 0.53);
 }
 
-.column {
-  flex: 1;
-  margin: 0 10px;
-  max-width: 250px;
-  margin-right: 150px;
-}
+
 
 
 img {
