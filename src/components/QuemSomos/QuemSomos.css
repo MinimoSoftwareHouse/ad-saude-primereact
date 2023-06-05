@@ -1,17 +1,8 @@
-.containerQuemSomos {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 85%;
-}
-
 .grid {
   display: flex;
 }
 
 .card {
-  /* alterar isso daqui */
   margin-top: 80em;
   flex: 1;
   background: #f2f2f2;
