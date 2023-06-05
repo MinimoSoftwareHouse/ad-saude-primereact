@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import QuemSomos from './components/QuemSomos/QuemSomos.jsx';
 import Servicos from './components/Serviços/Serviços.jsx';
 import Treinamentos from './components/Treinamentos/Treinamentos.jsx';
+import Contato from './components/Contato/Contato';
 
 function App() {
 	return (
@@ -25,6 +26,10 @@ function App() {
 						exact
 						path="/treinamentos"
 						element={<Treinamentos />}></Route>
+					<Route
+						exact
+						path="/contato"
+						element={<Contato />}></Route>
 				</Routes>
 				<Home />
 				<Footer />
