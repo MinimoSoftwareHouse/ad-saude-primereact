@@ -12,6 +12,7 @@ function Footer() {
 					<img
 						src={Logo}
 						alt="Company Logo"
+						className="footer-logo"
 					/>
 				</div>
 				<div className="column2">
