@@ -1,6 +1,5 @@
 import './Navbar.css';
 import Logo from '../../assets/companyLogo.jpg';
-import { Button } from 'primereact/button';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
