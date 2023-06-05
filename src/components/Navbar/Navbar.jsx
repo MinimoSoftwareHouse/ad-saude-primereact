@@ -7,7 +7,7 @@ export default function Navbar() {
 	return (
 		<>
 			<nav className="nav w-full grid justify-content-center align-content-between align-items-center m-0">
-				<div className="col-6 md:col-2 flex justify-content-center">
+				<div className="col-6 md:col-1 flex justify-content-center">
 					<img
 						className="logo-navbar"
 						src={Logo}
