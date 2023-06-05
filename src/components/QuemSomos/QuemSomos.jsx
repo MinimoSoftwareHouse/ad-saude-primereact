@@ -1,12 +1,12 @@
 import './QuemSomos.css';
 
-const QuemSomos = (props) => {
+const QuemSomos = () => {
 	return (
 		<>
 			<div className="grid">
 				<div className="card">
 					<div className="card-content">
-						<h1 className="card-title">props.title</h1>
+						<h1 className="card-title">Serviços</h1>
 						<h3 className="card-description">
 							Oferecer serviços e produtos de Saúde, Segurança e Higiene
 							Ocupacional, que promovam melhores condições de trabalho, bem
