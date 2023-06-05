@@ -43,7 +43,7 @@ li {
   padding-bottom: 36px;
   padding-top: 4rem;
   text-decoration: none;
-  font-size: medium;
+  font-size: 18px;
   transition: 0.1s;
   white-space: nowrap;
   margin: 0 10px; /* Adjust the margin value as per your preference */
@@ -54,9 +54,44 @@ li {
   border-bottom: 3px solid #00e4b9;
 }
 
-button.nav-item {
-  background-color: #00e4b9 !important;
-  color: #54595f !important;
-  border: none !important;
-  font-weight: bolder;
+.nav-item-button {
+  align-items: center;
+  background-color: #03B5AA;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 70%;
+
+  min-width: 70%;
+  padding: 10px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+
+.nav-item-button:active,
+.nav-item-button:hover {
+  outline: 0;
+}
+
+.nav-item-button span {
+  background-color: #00b997;
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 20%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.nav-item-button:hover span {
+  background: none;
 }
