@@ -1,11 +1,14 @@
 .nav {
-    background-color: #fff;
-    padding: 20px;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    box-shadow: 0px 5px 13px 0px rgba(168, 168, 168, 0.53);
+  background-color: #fff;
+  padding: 20px;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 13px 0px rgba(168, 168, 168, 0.53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -34,7 +37,7 @@ li {
   color: rgb(33, 33, 33);
   margin-left: 16px;
 }
-a.nav-item {
+.nav-item {
   height: fit-content;
   color: #54595f;
   padding-bottom: 36px;
@@ -43,9 +46,10 @@ a.nav-item {
   font-size: medium;
   transition: 0.1s;
   white-space: nowrap;
+  margin: 0 10px; /* Adjust the margin value as per your preference */
 }
 
-a.nav-item:hover {
+.nav-item:hover {
   color: #00e4b9;
   border-bottom: 3px solid #00e4b9;
 }
