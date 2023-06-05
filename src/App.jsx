@@ -8,15 +8,18 @@ import Servicos from './components/Serviços/Serviços.jsx';
 
 function App() {
 	return (
-		<Router>
-			<Navbar />
-			<Routes>
-				<Route exact path="/quem-somos" element={ <QuemSomos /> }> </Route>
-				<Route exact path="/serviços" element={ <Servicos /> }> </Route>
-				{/* Carregar outros componentes aqui */}
-			</Routes>
-			<Footer />
-		</Router>
+		<>
+			<Router>
+				<Navbar />
+				<Routes>
+					<Route
+						exact
+						path="/quem-somos"
+						element={<QuemSomos />}></Route>
+				</Routes>
+				<Footer />
+			</Router>
+		</>
 	);
 }
 
