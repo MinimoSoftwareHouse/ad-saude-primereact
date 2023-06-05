@@ -7,6 +7,7 @@ import QuemSomos from './components/QuemSomos/QuemSomos.jsx';
 import Servicos from './components/Serviços/Serviços.jsx';
 import Treinamentos from './components/Treinamentos/Treinamentos.jsx';
 import Contato from './components/Contato/Contato';
+import Obrigado from './components/Contato/Obrigado';
 
 function App() {
 	return (
@@ -34,6 +35,10 @@ function App() {
 						exact
 						path="/contato"
 						element={<Contato />}></Route>
+					<Route
+						exact
+						path="/obrigado"
+						element={<Obrigado />}></Route>
 				</Routes>
 				<Footer />
 			</Router>
