@@ -1,0 +1,33 @@
+.ServiçosCard-title {
+  font-weight: 400;
+  color: #009790;
+  text-align: center;
+}
+
+.ServiçosCard-description {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.ServiçosCard-items{
+    font-weight: 400;
+    color: #030303;
+}
+.ServiçosCard{
+  margin-top: 10em;
+  margin-bottom: 10em;
+  flex: 1;
+  background: #f2f2f2;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  margin-right: 30px;
+}
+
+.ServiçosCard-content {
+  text-align: justify;
+  color: black;
+}
