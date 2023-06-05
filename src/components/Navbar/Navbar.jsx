@@ -45,18 +45,12 @@ export default function Navbar() {
 				</div>
 				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
 					<Link
-						to="/e-social"
+						to="/treinamentos"
 						className="nav-item">
-						E-social
+						Treinamentos
 					</Link>
 				</div>
-				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center">
-					<Link
-						to="/blog"
-						className="nav-item">
-						Blog
-					</Link>
-				</div>
+
 				<div className="h-full col-12 md:col-2 sm:col-6 flex align-content-center align-itens-center justify-content-center pt-5">
 					<Button
 						label="Solicitar Orçamento"
