@@ -12,6 +12,10 @@
   margin-right: 30px;
 }
 
+.card, .card:hover {
+  cursor: pointer;
+}
+
 .card-content {
   text-align: justify;
   color: black;

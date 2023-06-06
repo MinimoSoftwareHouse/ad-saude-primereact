@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazyload';
 const ServiçosCard = () => {
 	return (
 		<>
-			<div className="grid justify-content-around mx-auto w-11">
+			<div className="grid justify-content-around mx-auto w-11 service-cards">
 				<div className="ServiçosCard shadow-2 hover:shadow-8">
 					<LazyLoad
 						height={200}
