@@ -3,14 +3,14 @@ import './Contato.css';
 export default function Contato() {
 	return (
 		<>
-			<div className="grid col-12">
-				<div className="md:col-1 flex justify-content-center">
-					<h5>Nosso endereço: </h5>
-					<div className="divider">_</div>
+			<div className="grid">
+				<div className="col-2 flex align-items-center ">
+					<h5>Nosso endereço</h5>
+					<div className="linha-ondulada col-6 flex justify-content-end"></div>
 				</div>
 				
 
-				<div className="container_form">
+				<div className="container_form col-6">
 					<h1 className="title_contato">
 						<i className="icon icon-file-text-o"></i> Fale Conosco
 					</h1>

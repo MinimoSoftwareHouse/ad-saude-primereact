@@ -45,15 +45,6 @@ export default function Navbar() {
 					</Link>
 				</div>
 
-				<div className="h-full col-12 md:col-2 sm:col-6 flex align-content-center align-itens-center justify-content-center pt-5">
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href="https://wa.me/5591986018137?text=Olá! Gostaria de fazer um orçamento"
-						className="nav-item-button">
-						Solicite um orçamento
-					</a>
-				</div>
 			</nav>
 		</>
 	);

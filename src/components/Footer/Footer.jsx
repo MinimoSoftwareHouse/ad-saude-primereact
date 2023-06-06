@@ -31,7 +31,7 @@ function Footer() {
 					<h3>Entre em Contato</h3>
 					<ul>
 						<li>WHATSAPP: (91) 98601-8137</li>
-						<li>E-mail: CONTATO@GSTOCUPACIONAL.COM.BR</li>
+						<li>E-mail: amedseg@outlook.com</li>
 					</ul>
 				</div>
 			</footer>
