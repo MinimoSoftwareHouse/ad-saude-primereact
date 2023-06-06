@@ -70,6 +70,12 @@ textarea {
 
 }
 
+input, textarea {
+    max-width:  36em;
+    resize: vertical;
+    padding-left: 10%;
+ }
+
 input:focus,
 textarea:focus { outline: 0; }
 
