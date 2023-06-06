@@ -4,16 +4,18 @@ export default function Contato() {
 	return (
 		<>
 			<div className="grid">
-				<div className="col-2 flex align-items-center ">
+				<div className="col-2 flex align-items-center justify-content-center ">
 					<h5>Nosso endereço</h5>
-					<div className="linha-ondulada col-6 flex justify-content-end"></div>
-				</div>
-				
-
-				<div className="container_form col-6">
-					<h1 className="title_contato">
-						<i className="icon icon-file-text-o"></i> Fale Conosco
+					
+				</div>  
+			
+				<div className="container_form">
+					<h1 className='title_contato'>
+						Entre em contato com a Amedseg
 					</h1>
+					<p className='mt-4 mb-6 text-center'>
+						Entre em contato conosco, responderemos em instantes, ou se preferir ligue para a Amedseg no (numero) e fale com um de nossos atendentes.
+					</p>
 
 					<form
 						action="https://formsubmit.co/aronr.chaves@gmail.com"
