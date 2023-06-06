@@ -50,6 +50,7 @@ li {
 .nav-item:hover {
   color: #00e4b9;
   border-bottom: 3px solid #00e4b9;
+  text-decoration: none;
 }
 
 .nav-item-button {
