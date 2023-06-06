@@ -8,6 +8,7 @@ import Servicos from './components/Serviços/Serviços.jsx';
 import Treinamentos from './components/Treinamentos/Treinamentos.jsx';
 import Contato from './components/Contato/Contato';
 import Obrigado from './components/Contato/Obrigado';
+import Zap from './components/Whatsapp/Whatsapp';
 
 function App() {
 	return (
@@ -42,6 +43,7 @@ function App() {
 				</Routes>
 				<Footer />
 			</Router>
+			<Zap />
 		</>
 	);
 }
