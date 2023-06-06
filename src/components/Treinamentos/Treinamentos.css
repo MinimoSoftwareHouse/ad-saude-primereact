@@ -1,49 +1,11 @@
-/* contact button */
-.button-64 {
-  align-items: center;
-  background-color: #03B5AA;
-  border: 0;
-  border-radius: 8px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  display: flex;
-  font-size: 20px;
-  justify-content: center;
-  line-height: 1em;
-  max-width: 50%;
-  min-width: 100%;
-  padding: 10px;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  cursor: pointer;
-  
+.custom-card {
+  transition: box-shadow 0.3s ease;
 }
 
-.button-64:active,
-.button-64:hover {
-  outline: 0;
+.custom-card:hover {
+  box-shadow: 0 2px 8px #4e5e5d;
 }
 
-.button-64 span {
-  background-color: #00b997;
-  padding: 16px 24px;
-  border-radius: 6px;
-  width: 20%;
-  height: 100%;
-  transition: 300ms;
-}
-
-.button-64:hover span {
-  background: none;
-}
-
-@media (min-width: 768px) {
-  .button-64 {
-    font-size: 24px;
-    min-width: 196px;
-  }
+.list-item {
+    font-weight: 500;
 }

@@ -1,13 +1,13 @@
 .hero-container {
   position: relative;
   width: 100vw;
-  height: 25vh;
+  height: 35vh;
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .text-container {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
   width: 100%;
   padding: 20px;

@@ -1,10 +1,15 @@
 import './Footer.css';
 import Logo from '../../assets/companyLogo.jpg';
+import { Divider } from 'primereact/divider';
 
 function Footer() {
 	return (
 		<div className="page-container">
-			<footer className="footer w-full grid align-content-center absolute	">
+			<footer className="footer w-full grid align-content-center absolute">
+				<Divider
+					align="center"
+					className="footer-divider"
+				/>
 				<div className="md:col-4 flex justify-content-start align-items-center">
 					<img
 						src={Logo}
@@ -12,7 +17,7 @@ function Footer() {
 						className="footer-logo"
 					/>
 				</div>
-				<div className="items md:col-2 ">
+				<div className="items md:col-2">
 					<h3>Menu</h3>
 					<ul>
 						<li>Home</li>

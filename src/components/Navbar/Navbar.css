@@ -16,6 +16,7 @@
 .logo-navbar {
   width: 150px;
   margin-top: 25px;
+  margin-right: 50px;
 }
 
 ul {
@@ -50,9 +51,10 @@ li {
 .nav-item:hover {
   color: #00e4b9;
   border-bottom: 3px solid #00e4b9;
+  text-decoration: none;
 }
 
-.nav-item-button {
+.nav-item-button, .nav-item-button:visited {
   align-items: center;
   background-color: #03B5AA;
   border: 0;
@@ -63,10 +65,10 @@ li {
   display: flex;
   justify-content: center;
   line-height: 1em;
-  max-width: 70%;
+
 
   min-width: 70%;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -75,6 +77,8 @@ li {
   cursor: pointer;
   
 }
+a:link { text-decoration: none; color: white; }
+a:visited { text-decoration: none;  }
 
 .nav-item-button:active,
 .nav-item-button:hover {
