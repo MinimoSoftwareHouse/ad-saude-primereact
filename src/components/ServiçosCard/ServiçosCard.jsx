@@ -1,11 +1,16 @@
 import './ServiçosCard.css';
 
+import { MdMedicalServices, MdLocalFireDepartment } from 'react-icons/md';
+
 const ServiçosCard = () => {
 	return (
 		<>
-			<div className="grid">
+			<div className="grid justify-content-around mx-auto">
 				<div className="ServiçosCard">
 					<div className="ServiçosCard-content">
+						<div className="icon-container">
+							<MdMedicalServices className="icon" />
+						</div>
 						<h1 className="ServiçosCard-title">Medicina Ocupacional</h1>
 						<ul className="ServiçosCard-description">
 							<li className="ServiçosCard-items">
@@ -21,6 +26,9 @@ const ServiçosCard = () => {
 
 				<div className="ServiçosCard">
 					<div className="ServiçosCard-content">
+						<div className="icon-container">
+							<MdLocalFireDepartment className="icon" />
+						</div>
 						<h1 className="ServiçosCard-title">
 							Prevenção e Combate a Incêndio
 						</h1>
