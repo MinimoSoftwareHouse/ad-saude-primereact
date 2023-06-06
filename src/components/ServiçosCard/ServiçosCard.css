@@ -15,6 +15,12 @@
   color: #009790;
 }
 
+.service-cards {
+  justify-content: space-between; /* Adjusted spacing */
+  margin: 0 auto; /* Center the grid */
+  max-width: 70%; /* Adjust the max-width as needed */
+}
+
 
 .ServiçosCard-description {
   margin-top: 20px;
@@ -43,4 +49,8 @@
 .ServiçosCard-content {
   text-align: justify;
   color: black;
+}
+
+.ServiçosCard, .ServiçosCard:hover {
+  cursor: pointer;
 }
