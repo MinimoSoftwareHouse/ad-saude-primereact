@@ -76,13 +76,7 @@ const Serviços = () => {
 							</h4>
 						</li>
 					</ul>
-					<a
-						target="_blank"
-						rel="noreferrer"
-						href="https://wa.me/5591986018137?text=Olá! Gostaria de fazer um orçamento"
-						className="button-64">
-						Solicite um orçamento
-					</a>
+					
 				</div>
 			</div>
 		</div>

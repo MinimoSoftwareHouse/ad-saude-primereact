@@ -147,3 +147,6 @@ input[type=checkbox]:checked + label {
   font-style: normal;
 
 }
+.divider{
+    border-bottom: 3px solid #00e4b9;
+}
