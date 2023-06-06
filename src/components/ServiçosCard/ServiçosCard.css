@@ -30,14 +30,14 @@
 }
 .ServiçosCard{
   margin-top: 5em;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   flex: 1;
   background: #f2f2f2;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
   margin-right: 30px;
-  max-width: 750px;
+  max-width: 650px;
 }
 
 .ServiçosCard-content {
