@@ -27,42 +27,36 @@ export default function Contato() {
 							<input
 								type="text"
 								name="nome"
+								placeholder="nome"
 								required
 							/>
-							<label>
-								<i className="icon icon-user-1"></i> Nome
-							</label>
 						</div>
 
 						<div className="style-form-input">
 							<input
 								type="email"
 								name="email"
+								placeholder="email"
 								required
 							/>
-							<label>
-								<i className="icon icon-mail-1"></i> E-mail
-							</label>
 						</div>
 
 						<div className="style-form-input right">
 							<input
 								type="text"
 								name="assunto"
+								placeholder="assunto"
 								required
 							/>
-							<label>
-								<i className="icon icon-info-circled"></i> Assunto
-							</label>
 						</div>
 
 						<div className="style-form-input full">
 							<textarea
 								name="mensagem"
-								required></textarea>
-							<label>
-								<i className="icon icon-comments"></i> Mensagem
-							</label>
+								type="text"
+								placeholder="mensagem"
+								required
+							/>
 						</div>
 
 						<div className="style-form-input full">
