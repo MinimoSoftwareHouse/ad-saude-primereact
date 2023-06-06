@@ -53,7 +53,7 @@ li {
   text-decoration: none;
 }
 
-.nav-item-button {
+.nav-item-button, .nav-item-button:visited {
   align-items: center;
   background-color: #03B5AA;
   border: 0;
@@ -76,6 +76,8 @@ li {
   cursor: pointer;
   
 }
+a:link { text-decoration: none; color: white; }
+a:visited { text-decoration: none;  }
 
 .nav-item-button:active,
 .nav-item-button:hover {
