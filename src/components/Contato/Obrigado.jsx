@@ -2,22 +2,21 @@ import './Obrigado.css';
 
 function Obrigado() {
 	return (
-		<div className="jumbotron text-center center">
-			<div className="container">
-				<h1 className="display-3">Obrigado por entrar em contato! 😁</h1>
-				<br />
-				<div className="row">
-					<div className="col-4 mx-auto">
-						<a
-							className="btn btn-success btn-lg btn-block"
-							href="http://localhost:5173/contato"
-							role="button">
+
+		<div className="grid my-8 py-8">
+			<div className="col-12">
+				<h1 className="text-green overflow-hidden">Obrigado por entrar em contato! 😁</h1>
+
+			</div>
+			<div className="col-12 mt-5">
+				<div className="grid justify-content-center">
+					<div className="col-12 sm:col-12 md:col-3 lg:col-3 px-8">
+						<a className="btn btn-lg btn-block back-button" href="/contato" role="button">
 							⬅ Voltar
 						</a>
-						<a
-							className="btn btn-light btn-lg btn-block"
-							href="http://localhost:5173/"
-							role="button">
+					</div>
+					<div className="col-12 sm:col-12 md:col-3 lg:col-3 px-8">
+						<a className="btn btn-light btn-lg btn-block" href="/" role="button">
 							🏠 Home
 						</a>
 					</div>
