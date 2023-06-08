@@ -1,6 +1,10 @@
+:root {
+  --nav-item-font-small-screen : 13px;
+}
+
 .nav {
   background-color: #fff;
-  padding: 20px;
+  padding: 8px;
   z-index: 999;
   left: 0;
   top: 0;
@@ -10,12 +14,24 @@
   align-items: center;
 }
 
-
-
-
 .logo-navbar {
   width: 150px;
-  margin-top: 25px;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 1126px) { 
+  .nav-item {
+    font-size: var(--nav-item-font-small-screen) !important;
+  }
+  .nav-item-button {
+    font-size:   var(--nav-item-font-small-screen) !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sm-hidden {
+    display: none !important;
+  }
 }
 
 ul {
@@ -41,7 +57,7 @@ li {
   padding-bottom: 36px;
   padding-top: 4rem;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.1s;
   white-space: nowrap;
   margin: 0 10px; /* Adjust the margin value as per your preference */
@@ -73,7 +89,8 @@ li {
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  
+  text-align: center;
+  font-size: 16px;
 }
 
 .nav-item-button:active,
