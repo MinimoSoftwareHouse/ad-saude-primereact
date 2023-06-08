@@ -1,6 +1,7 @@
 import './Navbar.css';
 import Logo from '../../assets/companyLogo.jpg';
 import { Link } from 'react-router-dom';
+import { Divider } from 'primereact/divider';
 
 export default function Navbar() {
 	return (
@@ -63,6 +64,7 @@ export default function Navbar() {
 					</Link>
 				</div>
 			</nav>
+			<Divider align="bottom" className="footer-divider mx-auto pt-1" />
 		</>
 	);
 }
