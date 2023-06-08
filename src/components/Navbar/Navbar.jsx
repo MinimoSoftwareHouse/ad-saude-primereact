@@ -7,11 +7,13 @@ export default function Navbar() {
 		<>
 			<nav className="nav w-full grid justify-content-center align-content-between align-items-center m-0">
 				<div className="col-6 md:col-2 flex justify-content-center">
-					<img
-						className="logo-navbar"
-						src={Logo}
-						alt="Company Logo"
-					/>
+					<Link to="/">
+						<img
+							className="logo-navbar"
+							src={Logo}
+							alt="Company Logo"
+						/>
+					</Link>
 				</div>
 
 				{/* <div className="col-12 md:col-2 sm:col-3 flex justify-content-center">

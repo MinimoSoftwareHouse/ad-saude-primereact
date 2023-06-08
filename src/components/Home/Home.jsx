@@ -7,7 +7,7 @@ function Home() {
 		<>
 			<div className="hero-container">
 				<div className="text-container">
-					<h1>O que fazemos?</h1>
+					{/* <h1>O que fazemos?</h1>; */}
 					<h2>Segurança do Trabalho e Medicina Ocupacional</h2>
 				</div>
 				<img
