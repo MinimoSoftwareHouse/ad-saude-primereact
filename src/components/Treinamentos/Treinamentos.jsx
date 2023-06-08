@@ -18,25 +18,17 @@ const Treinamentos = () => {
 	];
 
 	return (
-		<div className="containerServiços flex align-items-center justify-content-center">
-			<div className="list">
-				<div className="services1">
-					<h1 className="title flex justify-content-start">
-						Treinamentos de Segurança
-					</h1>
-					<ul className="list">
-						{listItemData.map((item, index) => (
-							<li
-								key={index}
-								className="item">
-								<Card className="custom-card border-round">
-									<p className="list-item">{item}</p>
-								</Card>
-							</li>
-						))}
-					</ul>
-				</div>
+		<div className="grid justify-content-center align-itens-center mt-8 px-6">
+			<div className="col-12">
+				<h1 className="title p-overflow-hidden">Treinamentos de Segurança</h1>
 			</div>
+				{listItemData.map((item, index) => (
+					<div className="col-12 sm:col-12 md:col-4 lg:col-4" key={index}>
+						<Card className="training-card border-round border cursor-pointer hover:shadow-3">
+							<p className="p-overflow-hidden">{item}</p>
+						</Card>
+					</div>
+				))}
 		</div>
 	);
 };

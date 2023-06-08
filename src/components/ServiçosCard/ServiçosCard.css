@@ -1,7 +1,13 @@
+:root {
+  --global-green : #03B5AA;
+}
+
 .ServiçosCard-title {
-  font-weight: 400;
-  color: #009790;
+  font-weight: 800;
+  color: var(--global-green);
   text-align: center;
+  font-size: 2rem;
+  overflow: hidden;
 }
 .icon-container {
   display: flex;
@@ -12,13 +18,7 @@
 
 .icon {
   font-size: 40px;
-  color: #009790;
-}
-
-.service-cards {
-  justify-content: space-between; /* Adjusted spacing */
-  margin: 0 auto; /* Center the grid */
-  max-width: 70%; /* Adjust the max-width as needed */
+  color: var(--global-green);
 }
 
 
@@ -32,18 +32,21 @@
 
 .ServiçosCard-items{
     font-weight: 400;
-    color: #030303;
+    color: #8b8b8b;
+    font-family: Helvetica, Arial,  sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
 }
 .ServiçosCard{
-  margin-top: 5em;
+  margin-top: 2.5em;
   margin-bottom: 5em;
   flex: 1;
   background: #f2f2f2;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
-  margin-right: 30px;
   max-width: 650px;
+  min-height: 40rem !important;
 }
 
 .ServiçosCard-content {

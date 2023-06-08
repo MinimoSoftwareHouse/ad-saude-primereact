@@ -1,12 +1,37 @@
+:root {
+  --nav-item-font-small-screen : 13px;
+}
+
 .nav {
-  padding: 20px;
-  
+  background-color: #fff;
+  padding: 8px;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-navbar {
   width: 150px;
-  margin-top: 25px;
-  margin-right: 50px;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 1126px) { 
+  .nav-item {
+    font-size: var(--nav-item-font-small-screen) !important;
+  }
+  .nav-item-button {
+    font-size:   var(--nav-item-font-small-screen) !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sm-hidden {
+    display: none !important;
+  }
 }
 
 ul {
@@ -28,18 +53,18 @@ li {
 }
 .nav-item {
   height: fit-content;
-  color: #54595f;
+  color: #54595f !important;
   padding-bottom: 36px;
   padding-top: 4rem;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   transition: 0.1s;
   white-space: nowrap;
   margin: 0 10px; /* Adjust the margin value as per your preference */
 }
 
 .nav-item:hover {
-  color: #00e4b9;
+  color: #00e4b9 !important;
   border-bottom: 3px solid #00e4b9;
   text-decoration: none;
 }
@@ -65,7 +90,8 @@ li {
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  
+  text-align: center;
+  font-size: 16px;
 }
 a:link { text-decoration: none; color: white; }
 a:visited { text-decoration: none;  }

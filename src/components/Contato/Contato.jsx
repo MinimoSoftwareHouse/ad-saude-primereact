@@ -5,10 +5,9 @@ export default function Contato() {
 		<>
 			<div className="grid">
 				<div className="container_form">
-					<h1 className="title_contato">Entre em contato com a Amedseg</h1>
+					<h1 className="text-green overflow-hidden">Entre em contato com a Amedseg</h1>
 					<p className="mt-4 mb-6 text-center">
-						Entre em contato conosco, responderemos em instantes, ou se preferir
-						ligue para a Amedseg no (numero) e fale com um de nossos atendentes.
+						Entre em contato conosco, responderemos em instantes.
 					</p>
 
 					<form
@@ -25,6 +24,7 @@ export default function Contato() {
 								value="http://localhost:5173/obrigado"
 							/>
 							<input
+								className="form-control"
 								type="text"
 								name="nome"
 								placeholder="nome"
@@ -34,6 +34,7 @@ export default function Contato() {
 
 						<div className="style-form-input">
 							<input
+								className="form-control"
 								type="email"
 								name="email"
 								placeholder="email"
@@ -43,6 +44,7 @@ export default function Contato() {
 
 						<div className="style-form-input right">
 							<input
+								className="form-control"
 								type="text"
 								name="assunto"
 								placeholder="assunto"
@@ -52,6 +54,7 @@ export default function Contato() {
 
 						<div className="style-form-input full">
 							<textarea
+								className="form-control"
 								name="mensagem"
 								type="text"
 								placeholder="mensagem"

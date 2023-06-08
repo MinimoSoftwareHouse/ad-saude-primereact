@@ -9,3 +9,7 @@
 .list-item {
     font-weight: 500;
 }
+
+.training-card {
+  min-height: 9rem;
+}
