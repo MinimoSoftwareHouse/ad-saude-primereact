@@ -1,8 +1,6 @@
 import './ServiçosCard.css';
 import { MdMedicalServices, MdLocalFireDepartment } from 'react-icons/md';
-import LazyLoad from 'react-lazyload';
-import {Card} from 'primereact/card';
-
+import { Card } from 'primereact/card';
 
 const CardTitle01 = () => {
 	return (
@@ -16,8 +14,8 @@ const CardTitle01 = () => {
 				</div>
 			</div>
 		</>
-	)
-}
+	);
+};
 const CardTitle02 = () => {
 	return (
 		<>
@@ -30,20 +28,22 @@ const CardTitle02 = () => {
 				</div>
 			</div>
 		</>
-	)
-}
-
+	);
+};
 
 const ServiçosCard = () => {
 	return (
 		<>
 			<div className="grid justify-content-around mx-auto">
 				<div className="col-12 sm:col-12 md:col-5 lg:col-5 p-3 lg:p-7">
-
-					<Card title={<CardTitle01></CardTitle01>} className='ServiçosCard shadow-2 hover:shadow-7'>
+					<Card
+						title={<CardTitle01></CardTitle01>}
+						className="ServiçosCard shadow-2 hover:shadow-7">
 						<div className="m-0">
 							<ul className="ServiçosCard-description">
-								<li className="ServiçosCard-items">Atestado de Saúde Ocupacional</li>
+								<li className="ServiçosCard-items">
+									Atestado de Saúde Ocupacional
+								</li>
 								<li className="ServiçosCard-items">Admissional</li>
 								<li className="ServiçosCard-items">Periódico</li>
 								<li className="ServiçosCard-items">Demissional</li>
@@ -68,9 +68,9 @@ const ServiçosCard = () => {
 				</div>
 
 				<div className="col-12 sm:col-12 md:col-5 lg:col-5 p-3 lg:p-7 ">
-
-
-				<Card title={<CardTitle02/>} className='ServiçosCard border-round shadow-2 hover:shadow-7'>
+					<Card
+						title={<CardTitle02 />}
+						className="ServiçosCard border-round shadow-2 hover:shadow-7">
 						<div className="m-0">
 							<ul className="ServiçosCard-description">
 								<li className="ServiçosCard-items">
