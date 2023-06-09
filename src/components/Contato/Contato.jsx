@@ -1,11 +1,12 @@
 import './Contato.css';
-
 export default function Contato() {
 	return (
 		<>
 			<div className="grid">
 				<div className="container_form">
-					<h1 className="text-green overflow-hidden">Entre em contato com a Amedseg</h1>
+					<h1 className="text-green overflow-hidden">
+						Entre em contato com a Amedseg
+					</h1>
 					<p className="mt-4 mb-6 text-center">
 						Entre em contato conosco, responderemos em instantes.
 					</p>

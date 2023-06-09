@@ -14,6 +14,10 @@ textarea:valid ~ label {
     font-weight: bold;
 }
 
+.services {
+    color: #0d3c41;
+}
+
 .style-form-input {
     float: left;
     width: 295px;
