@@ -34,13 +34,13 @@ const CardTitle02 = () => {
 const ServiçosCard = () => {
 	return (
 		<>
-			<div className="grid justify-content-around mx-auto">
-				<div className="col-12 sm:col-12 md:col-5 lg:col-5 p-3 lg:p-7">
+			<div className="grid justify-content-around mx-12 ">
+				<div className="col-12 sm:col-12 md:col-5 lg:col-5 p-3 lg:p-7 ">
 					<Card
 						title={<CardTitle01></CardTitle01>}
-						className="ServiçosCard shadow-2 hover:shadow-5">
-						<div className="m-0">
-							<ul className="ServiçosCard-description">
+						className="ServiçosCard shadow-2 hover:shadow-5 ">
+						<div className="m-0 ">
+							<ul className="ServiçosCard-description text-left ">
 								<li className="ServiçosCard-items">
 									Atestado de Saúde Ocupacional
 								</li>
@@ -72,7 +72,7 @@ const ServiçosCard = () => {
 						title={<CardTitle02 />}
 						className="ServiçosCard border-round-3xl shadow-3 hover:shadow-5">
 						<div className="m-0">
-							<ul className="ServiçosCard-description">
+							<ul className="ServiçosCard-description text-left">
 								<li className="ServiçosCard-items">
 									Liberação de Auto de Vistoria do Corpo de Bombeiros (AVCB) –
 									Comercial e Industrial
