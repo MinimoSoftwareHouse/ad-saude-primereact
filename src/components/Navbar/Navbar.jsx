@@ -2,10 +2,31 @@ import './Navbar.css';
 import Logo from '../../assets/companyLogo.jpg';
 import { Link } from 'react-router-dom';
 import { Divider } from 'primereact/divider';
+import { slide as Menu } from 'react-burger-menu';
+import { useState } from 'react';
 
 export default function Navbar() {
+
+	const [isOpen, setIsOpen] = useState(false);
+
+	function closeMenu() {
+		setIsOpen(false);
+	}
+
+	const handleIsOpen = () => {
+		setIsOpen(!isOpen);
+	  }
+	
+
 	return (
 		<>
+			<Menu isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen}>
+				<Link onClick={closeMenu} to="/" className="menu-item"> Home </Link>
+				<Link onClick={closeMenu} to="/quem-somos" className="menu-item"> Quem somos </Link>
+				<Link onClick={closeMenu} to="/servicos" className="menu-item"> Serviços </Link>
+				<Link onClick={closeMenu} to="/contato" className="menu-item"> Contato </Link>
+				<Link onClick={closeMenu} to="/treinamentos" className="menu-item"> Treinamentos </Link>
+			</Menu>
 			<nav className="nav w-full grid justify-content-center align-content-between align-items-center m-0">
 				<div className="col-6 md:col-2 flex justify-content-center">
 					<Link to="/">
