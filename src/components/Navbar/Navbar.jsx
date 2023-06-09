@@ -15,7 +15,7 @@ export default function Navbar() {
 
 	const handleIsOpen = () => {
 		setIsOpen(!isOpen);
-	  }
+	}
 	
 
 	return (
@@ -45,43 +45,32 @@ export default function Navbar() {
 						Home
 					</Link>
 				</div> */}
-				<div className="col-12 md:col-2 sm:col-3 flex justify-content-center sm-hidden">
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
 						to="/quem-somos"
 						className="nav-item" style={NavItemStyle}>
 						Quem somos
 					</Link>
 				</div>
-				<div className="col-12 md:col-1 sm:col-3 flex justify-content-center sm-hidden">
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
 						to="/servicos"
 						className="nav-item" style={NavItemStyle}>
 						Serviços
 					</Link>
 				</div>
-				<div className="col-12 md:col-2 sm:col-3 flex justify-content-center sm-hidden">
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
 						to="/contato"
 						className="nav-item" style={NavItemStyle}>
 						Contato
 					</Link>
 				</div>
-				<div className="col-12 md:col-2 sm:col-3 flex justify-content-center sm-hidden">
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
 						to="/treinamentos"
 						className="nav-item" style={NavItemStyle}>
 						Treinamentos
-					</Link>
-				</div>
-
-				<div className="h-full col-12 md:col-3 sm:col-6 flex align-content-center align-itens-center justify-content-center pt-5">
-					<Link
-						target="_blank"
-						style={{...NavItemStyle, color: 'white', display: 'inline-table'}}
-						rel="noreferrer"
-						to="https://wa.me/5591986018137?text=Olá! Gostaria de fazer um orçamento"
-						className="nav-item-button">
-						Solicite um orçamento
 					</Link>
 				</div>
 			</nav>
