@@ -1,17 +1,15 @@
+/* eslint-disable react/prop-types */
 import './Home.css';
-import heroImg from '../../assets/heroImg.jpg';
 import ServiçosCard from '../../components/ServiçosCard/ServiçosCard.jsx';
-import { Button } from 'primereact/button';
 
-function Home() {
+function Home(props) {
+	const { title, heroImg, classNameOption } = props;
+
 	return (
 		<>
 			<div className="hero-container">
 				<div className="text-container">
-					<h2 className="overflow-hidden">
-						Segurança do Trabalho e Medicina Ocupacional
-					</h2>
-					<Button className='mt-3 btn-hero' label='Saiba mais aqui'/>
+					<h2 className={`overflow-hidden ${classNameOption}`}>{title}</h2>
 				</div>
 				<img
 					className="hero-img"
@@ -19,7 +17,7 @@ function Home() {
 					alt="test"
 				/>
 			</div>
-			<ServiçosCard />
+			{props.showServiçosCard && <ServiçosCard />}
 		</>
 	);
 }
