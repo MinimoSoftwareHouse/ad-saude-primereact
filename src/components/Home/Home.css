@@ -5,7 +5,7 @@
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 .hero-container > img {
-  filter: blur(15%);
+  filter: blur(30%);
 }
 
 .text-container {
