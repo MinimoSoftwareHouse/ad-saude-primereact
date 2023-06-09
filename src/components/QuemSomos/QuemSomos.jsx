@@ -53,7 +53,7 @@ const QuemSomos = () => {
 						title={<ServicesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-round-3xl">
 						<div className="m-0 ">
-							<h3 className="card-description">
+							<h3 className="card-description text-left">
 								Nosso compromisso é fornecer serviços e produtos de Saúde,
 								Segurança e Higiene Ocupacional para melhorar as condições de
 								trabalho, promover o bem-estar e aumentar a produtividade nas
@@ -69,7 +69,7 @@ const QuemSomos = () => {
 						title={<VisionTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl">
 						<div className="m-0">
-							<h3 className="card-description">
+							<h3 className="card-description text-left">
 								Nossa visão é ser uma empresa reconhecida pela excelência na
 								prestação de serviços, oferecendo atendimento personalizado e
 								soluções sob medida para cada cliente. Buscamos ser referência
@@ -84,7 +84,7 @@ const QuemSomos = () => {
 						title={<ValuesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl">
 						<div className="m-0">
-							<h3 className="card-description">
+							<h3 className="card-description text-left">
 								Nosso trabalho é guiado por valores fundamentais, como ética,
 								honestidade e integridade. Valorizamos a inovação e o dinamismo,
 								mantendo o foco no cliente em todas as nossas ações. Buscamos
