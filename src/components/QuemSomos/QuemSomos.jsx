@@ -47,11 +47,11 @@ const QuemSomos = () => {
 			/>
 
 			<div className="grid justify-content-around">
-				<div className="col-12 sm:col-12 md:col-4 lg:col-4 p-4">
+				<div className="col-auto sm:col-12 md:col-4 lg:col-4 p-3">
 					<Card
 						border-round-right-3xl
 						title={<ServicesTitle />}
-						className="card shadow-5 hover:shadow-7 mx-auto border-round-3xl sm:border-round-3xl">
+						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-round-3xl">
 						<div className="m-0 ">
 							<h3 className="card-description">
 								Nosso compromisso é fornecer serviços e produtos de Saúde,
@@ -64,10 +64,10 @@ const QuemSomos = () => {
 						</div>
 					</Card>
 				</div>
-				<div className="col-12 sm:col-12 md:col-4 lg:col-4 p-4">
+				<div className="col-auto sm:col-12 md:col-4 lg:col-4 p-3">
 					<Card
 						title={<VisionTitle />}
-						className="card shadow-5 hover:shadow-7 mx-auto border-round-3xl sm:border-3xl">
+						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl">
 						<div className="m-0">
 							<h3 className="card-description">
 								Nossa visão é ser uma empresa reconhecida pela excelência na
@@ -79,10 +79,10 @@ const QuemSomos = () => {
 						</div>
 					</Card>
 				</div>
-				<div className="col-12 sm:col-12 md:col-4 lg:col-4 p-4">
+				<div className="col-auto sm:col-12 md:col-4 lg:col-4 p-3">
 					<Card
 						title={<ValuesTitle />}
-						className="card shadow-5 hover:shadow-7 mx-auto border-round-3xl sm:border-3xl">
+						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl">
 						<div className="m-0">
 							<h3 className="card-description">
 								Nosso trabalho é guiado por valores fundamentais, como ética,
