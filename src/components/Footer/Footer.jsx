@@ -4,7 +4,7 @@ import { Divider } from 'primereact/divider';
 
 function Footer() {
 	return (
-	<footer className="footer w-full grid flex justify-content-center align-items-center absolute">
+	<footer className="footer w-full grid flex justify-content-center align-items-center absolute p-3">
 		<Divider align="bottom" className="footer-divider mx-auto pt-6" />
 
 		<div className="col-12 sm:col-12 md:col-4 lg:col-4 flex justify-content-center">
@@ -21,6 +21,14 @@ function Footer() {
 				<li>WHATSAPP: (91) 98601-8137</li>
 				<li>E-mail: amedseg@outlook.com</li>
 			</ul>
+		</div>
+		<div className='social-icons'>
+			<a href="https://www.facebook.com/amedseg.pa/" target='blank'>
+			<i className='pi pi-facebook btn-facebook text-3xl mr-4'></i>
+			</a>
+			<a href="https://www.instagram.com/amedseg.pa/" target='blank'>
+				<i className='pi pi-instagram btn-instagram text-3xl mr-4'></i>
+			</a>	
 		</div>
 	</footer>
 	);

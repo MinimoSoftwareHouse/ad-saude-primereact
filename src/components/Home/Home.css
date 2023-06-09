@@ -80,3 +80,8 @@
   box-shadow: none;
   transform: translateY(0);
 }
+
+.btn-hero{
+  background-color: #03B5AA !important;
+  border-radius: 20px 20px !important;
+}
