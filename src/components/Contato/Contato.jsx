@@ -22,7 +22,7 @@ export default function Contato() {
 							<input
 								type="hidden"
 								name="_next"
-								value="http://localhost:5173/obrigado"
+								value="https://ad-saude.vercel.app/obrigado"
 							/>
 							<input
 								className="form-control"
