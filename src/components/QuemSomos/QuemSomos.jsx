@@ -53,7 +53,7 @@ const QuemSomos = () => {
 						border-round-right-3xl
 						title={<ServicesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-round-3xl "
-						style={{ height: '750px' }}>
+						style={{ height: '850px' }}>
 						<div className="m-0">
 							<h3 className="card-description text-left">
 								Nosso compromisso é fornecer serviços e produtos de Saúde,
@@ -76,7 +76,7 @@ const QuemSomos = () => {
 					<Card
 						title={<VisionTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl"
-						style={{ height: '90%' }}>
+						style={{ height: '850px' }}>
 						<div className="m-0">
 							<h3 className="card-description text-left">
 								Nossa visão é ser uma empresa reconhecida pela excelência na
@@ -94,7 +94,7 @@ const QuemSomos = () => {
 					<Card
 						title={<ValuesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl"
-						style={{ height: '750px' }}>
+						style={{ height: '850px' }}>
 						<div className="m-0">
 							<h3 className="card-description text-left">
 								Nosso trabalho é guiado por valores fundamentais, como ética,
