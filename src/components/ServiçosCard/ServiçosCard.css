@@ -25,25 +25,24 @@
 .ServiçosCard-description {
   margin-top: 20px;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
   padding-left: 20px;
 }
 
 .ServiçosCard-items{
-    font-weight: 400;
+    font-weight: 600;
     color: #8b8b8b;
     font-family: Helvetica, Arial,  sans-serif;
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 .ServiçosCard{
   margin-top: 2.5em;
-  margin-bottom: 5em;
+  margin-bottom: 0.7em;
   flex: 1;
   background: #f2f2f2;
   padding: 20px;
-  border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
   max-width: 650px;
   min-height: 40rem !important;
@@ -56,4 +55,7 @@
 
 .ServiçosCard, .ServiçosCard:hover {
   cursor: pointer;
+  border-radius: 25px !important;
+
 }
+

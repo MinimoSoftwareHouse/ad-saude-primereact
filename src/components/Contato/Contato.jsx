@@ -1,11 +1,12 @@
 import './Contato.css';
-
 export default function Contato() {
 	return (
 		<>
 			<div className="grid">
 				<div className="container_form">
-					<h1 className="text-green overflow-hidden">Entre em contato com a Amedseg</h1>
+					<h1 className="text-green overflow-hidden">
+						Entre em contato com a Amedseg
+					</h1>
 					<p className="mt-4 mb-6 text-center">
 						Entre em contato conosco, responderemos em instantes.
 					</p>
@@ -21,7 +22,7 @@ export default function Contato() {
 							<input
 								type="hidden"
 								name="_next"
-								value="http://localhost:5173/obrigado"
+								value="https://ad-saude.vercel.app/obrigado"
 							/>
 							<input
 								className="form-control"
