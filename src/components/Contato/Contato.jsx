@@ -12,7 +12,7 @@ export default function Contato() {
 					</p>
 
 					<form
-						action="https://formsubmit.co/aronr.chaves@gmail.com"
+						action="https://formsubmit.co/amedseg@outlook.com"
 						method="POST">
 						<input
 							type="hidden"

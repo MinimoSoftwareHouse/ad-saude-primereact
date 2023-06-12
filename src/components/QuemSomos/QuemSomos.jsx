@@ -8,7 +8,7 @@ const ServicesTitle = () => {
 		<>
 			<div className="grid">
 				<div className="col-12 flex-justify-content-center">
-					<h1 className="overflow-hidden">Serviços</h1>
+					<h1 className="overflow-hidden">Missão</h1>
 				</div>
 			</div>
 		</>
@@ -53,21 +53,14 @@ const QuemSomos = () => {
 						border-round-right-3xl
 						title={<ServicesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-round-3xl "
-						style={{ height: '850px' }}>
+						>
 						<div className="m-0">
 							<h3 className="card-description text-left">
-								Nosso compromisso é fornecer serviços e produtos de Saúde,
-								Segurança e Higiene Ocupacional para melhorar as condições de
-								trabalho.
+								Nossa missão é oferecer serviços de medicina do trabalho de excelência, visando a promoção da saúde e o bem-estar dos trabalhadores. 
 								<br />
 								<br />
-								Nós promovemos o bem-estar e aumentamos a produtividade nas
-								empresas.
-								<br />
-								<br />
-								Trabalhamos para adequar o ambiente de trabalho às normas de
-								saúde ocupacional, garantindo um local seguro e saudável para os
-								colaboradores.
+								Através de avaliações médicas e medidas preventivas, estamos comprometidos em proteger e melhorar a qualidade de vida dos colaboradores, contribuindo para um ambiente de trabalho seguro e saudável.
+							
 							</h3>
 						</div>
 					</Card>
@@ -76,16 +69,13 @@ const QuemSomos = () => {
 					<Card
 						title={<VisionTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl"
-						style={{ height: '850px' }}>
+						>
 						<div className="m-0">
 							<h3 className="card-description text-left">
-								Nossa visão é ser uma empresa reconhecida pela excelência na
-								prestação de serviços.
+								Nossa visão é ser reconhecida como a principal referência em medicina do trabalho, fornecendo soluções personalizadas e inovadoras para empresas de todos os setores. 
 								<br />
 								<br />
-								Oferecendo atendimento personalizado e soluções sob medida para
-								cada cliente. Buscamos ser referência no mercado, superando as
-								expectativas e atendendo às necessidades específicas de cada um.
+								Buscamos estabelecer parcerias de longo prazo, com base na confiança e na expertise, a fim de promover a saúde ocupacional, prevenir doenças relacionadas ao trabalho e maximizar a produtividade das organizações.
 							</h3>
 						</div>
 					</Card>
@@ -94,17 +84,17 @@ const QuemSomos = () => {
 					<Card
 						title={<ValuesTitle />}
 						className="card shadow-5 hover:shadow-5 mx-auto border-round-3xl sm:border-3xl"
-						style={{ height: '850px' }}>
+						>
 						<div className="m-0">
 							<h3 className="card-description text-left">
-								Nosso trabalho é guiado por valores fundamentais, como ética,
-								honestidade e integridade. Valorizamos a inovação e o dinamismo.
+								Compromisso com a saúde: Protegendo e promovendo a saúde dos trabalhadores.
 								<br />
 								<br />
-								Mantendo o foco no cliente em todas as nossas ações. Buscamos
-								constantemente a excelência no atendimento, oferecendo serviços
-								de qualidade e construindo relacionamentos duradouros com nossos
-								clientes.
+								Parceria: Construindo relacionamentos sólidos e colaborativos com nossos clientes.
+								<br />
+								<br />
+								Inovação: Buscando constantemente soluções avançadas e práticas inovadoras em medicina do trabalho.
+
 							</h3>
 						</div>
 					</Card>

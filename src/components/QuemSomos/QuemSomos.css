@@ -9,8 +9,8 @@
   padding: 40px;
   box-shadow: 0 0 20px 8px #d0d0d0;
   margin-right: 30px;
-  min-height: 34rem;
   border-radius: 25px;
+  min-height: 40rem !important;
   font-weight: 600;
 }
 
