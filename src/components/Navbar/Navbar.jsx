@@ -61,16 +61,16 @@ export default function Navbar() {
 				</div>
 				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
-						to="/contato"
+						to="/treinamentos"
 						className="nav-item" style={NavItemStyle}>
-						Contato
+						Treinamentos
 					</Link>
 				</div>
 				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
-						to="/treinamentos"
+						to="/contato"
 						className="nav-item" style={NavItemStyle}>
-						Treinamentos
+						Contato
 					</Link>
 				</div>
 			</nav>
