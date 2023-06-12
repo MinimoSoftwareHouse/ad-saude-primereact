@@ -1,7 +1,7 @@
 import './Home.css';
 import heroImg from '../../assets/heroImg.jpg';
 import ServiçosCard from '../../components/ServiçosCard/ServiçosCard.jsx';
-import { Button } from 'primereact/button';
+// import { Button } from 'primereact/button';
 
 function Home() {
 	return (
@@ -11,7 +11,7 @@ function Home() {
 					<h2 className="overflow-hidden">
 						Segurança do Trabalho e Medicina Ocupacional
 					</h2>
-					<Button className='mt-3 btn-hero' label='Saiba mais aqui'/>
+					{/* <Button className='btn-hero' label='Saiba mais aqui'/> */}
 				</div>
 				<img
 					className="hero-img"
