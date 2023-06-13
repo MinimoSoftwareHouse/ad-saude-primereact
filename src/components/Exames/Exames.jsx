@@ -16,7 +16,8 @@ import heroImg from '../../assets/heroImg6.jpg';
         'Hemograma',
         'Glicemia',
         'Parasitológico (fezes e urina)',
-        'TGO, TGP'
+        'TGO, TGP',
+        'Para saber mais exames solicite no whatsapp...'
 	];
 
     return (
