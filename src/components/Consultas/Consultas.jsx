@@ -1,21 +1,14 @@
-import './Consultas.css'
+import './Consultas.css';
 import { Card } from 'primereact/card';
 
 import Home from '../Home/Home.jsx';
 import heroImg from '../../assets/heroImg6.jpg';
 
 const Consultas = () => {
-    const listItemData = [
-		'Clínico geral',
-		'Ortopedista',
-        'Ginecologista',
-        'Avaliação médica para aptidão física',
-        'Avaliação médica para concursos'
+	const listItemData = ['Clínico geral', 'Ortopedista', 'Ginecologista'];
 
-	];
-
-    return (
-        <>
+	return (
+		<>
 			<>
 				<Home
 					title="Consultas"
@@ -37,6 +30,6 @@ const Consultas = () => {
 				))}
 			</div>
 		</>
-    )
-}
+	);
+};
 export default Consultas;
