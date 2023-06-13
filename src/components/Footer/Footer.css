@@ -47,3 +47,10 @@
   margin-left: 0;
   text-align: left;
 }
+
+.maps{
+  color: black;
+}
+.maps:hover{
+  color: #03b5aa;
+}

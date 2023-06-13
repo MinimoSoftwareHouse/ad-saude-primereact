@@ -25,6 +25,10 @@ function Footer() {
 				<p>
 					BR-316, Posto Yamaga Próx. Unama Br <br /> Salas G8 e G9
 				</p>
+				<div className='flex gap-2 align-items-center'>
+					<i className='pi pi-map-marker text-xl'></i>
+					<a className='maps' href="https://www.google.com/maps/dir//Amedseg+-+Medicina+e+Seguran%C3%A7a+do+Trabalho+-+Rod+BR+316+1+km+3+Posto+yamaga+pr%C3%B3x.+Unama+Br+-+salas+g8+e+g9+-+Atalaia,+Ananindeua+-+PA/@-1.389254,-48.4548661,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x92a48ac40c12a57b:0xe0970e5219c8a979!2m2!1d-48.41358!2d-1.3893402?entry=ttu" target='blank'>Ver rotas</a>
+				</div>
 			</div>
 			<div className="col-12 sm:col-12 md:col-4 lg:col-4 p-5">
 				<h3 className="overflow-hidden font-bold text-green">
