@@ -52,11 +52,11 @@ export default function Navbar() {
 						Quem somos
 					</Link>
 				</div>
-				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
+				<div className="col-12 md:col-1 w-13rem sm:col-3 flex justify-content-center sm-hidden">
 					<Link
-						to="/servicos"
+						to="/medicina-do-trabalho"
 						className="nav-item" style={NavItemStyle}>
-						Serviços
+						Medicina do trabalho
 					</Link>
 				</div>
 				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
@@ -64,6 +64,20 @@ export default function Navbar() {
 						to="/treinamentos"
 						className="nav-item" style={NavItemStyle}>
 						Treinamentos
+					</Link>
+				</div>
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
+					<Link
+						to="/consultas"
+						className="nav-item" style={NavItemStyle}>
+						Consultas
+					</Link>
+				</div>
+				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
+					<Link
+						to="/exames"
+						className="nav-item" style={NavItemStyle}>
+						Exames
 					</Link>
 				</div>
 				<div className="col-12 md:col-1 w-10rem sm:col-3 flex justify-content-center sm-hidden">
