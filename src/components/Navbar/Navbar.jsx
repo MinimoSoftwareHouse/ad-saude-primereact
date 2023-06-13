@@ -23,9 +23,11 @@ export default function Navbar() {
 			<Menu isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen}>
 				<Link onClick={closeMenu} to="/" className="menu-item"> Home </Link>
 				<Link onClick={closeMenu} to="/quem-somos" className="menu-item"> Quem somos </Link>
-				<Link onClick={closeMenu} to="/servicos" className="menu-item"> Serviços </Link>
-				<Link onClick={closeMenu} to="/contato" className="menu-item"> Contato </Link>
+				<Link onClick={closeMenu} to="/medicina-do-trabalho" className="menu-item"> Medicina do trabalho </Link>
 				<Link onClick={closeMenu} to="/treinamentos" className="menu-item"> Treinamentos </Link>
+				<Link onClick={closeMenu} to="/consultas" className="menu-item"> Consultas </Link>
+				<Link onClick={closeMenu} to="/exames" className="menu-item"> Exames </Link>
+				<Link onClick={closeMenu} to="/contato" className="menu-item"> Contato </Link>
 			</Menu>
 			<nav className="nav w-full grid justify-content-center align-content-between align-items-center m-0">
 				<div className="col-6 md:col-2 flex justify-content-center">
