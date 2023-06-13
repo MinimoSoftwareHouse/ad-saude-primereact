@@ -20,7 +20,7 @@ const Serviços = () => {
 	return (
 		<>
 			<Home
-				title="Serviços"
+				title="Medicina do trabalho"
 				heroImg={heroImg}
 			/>
 
