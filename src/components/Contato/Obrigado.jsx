@@ -7,7 +7,6 @@ function Obrigado() {
 				<h1 className="text-green overflow-hidden">
 					Obrigado por entrar em contato! 😁
 				</h1>
-				{/*teste*/}
 			</div>
 			<div className="col-12 mt-5">
 				<div className="grid justify-content-center">
