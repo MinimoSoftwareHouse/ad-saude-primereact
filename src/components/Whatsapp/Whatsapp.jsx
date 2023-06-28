@@ -5,7 +5,7 @@ export default function Whatsapp() {
 	return (
 		<>
 			<Helmet>
-				<title>Contato via WhatsApp | Amedseg</title>
+				<title>Amedseg | Clínica Médica e Serviços de Saúde</title>
 			</Helmet>
 			<div>
 				<a
