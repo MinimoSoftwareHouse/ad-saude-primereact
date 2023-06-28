@@ -28,7 +28,7 @@ export default function Contato() {
 							<input
 								type="hidden"
 								name="_next"
-								value="https://ad-saude.vercel.app/obrigado"
+								value="https://www.amedsegbelem.com.br/obrigado"
 							/>
 							<input
 								className="form-control"
