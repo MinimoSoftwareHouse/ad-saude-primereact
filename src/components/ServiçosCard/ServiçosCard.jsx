@@ -34,6 +34,8 @@ const ServiçosCard = () => {
 								<li className="ServiçosCard-items">Periódico</li>
 								<li className="ServiçosCard-items">Demissional</li>
 								<li className="ServiçosCard-items">Mudança de Risco</li>
+								<li className="ServiçosCard-items">Retorno ao trabalho</li>
+								<li className="ServiçosCard-items">Audiometria</li>
 							</ul>
 						</div>
 					</Card>
