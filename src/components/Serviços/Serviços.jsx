@@ -1,5 +1,8 @@
+import React from 'react';
 import './Serviços.css';
 import { Card } from 'primereact/card';
+import { Helmet } from 'react-helmet';
+
 import Home from '../Home/Home.jsx';
 import heroImg from '../../assets/heroImg6.jpg';
 
@@ -19,11 +22,13 @@ const Serviços = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Serviços - Amedseg | Clínica Médica e Serviços de Saúde</title>
+			</Helmet>
 			<Home
 				title="Medicina do trabalho"
 				heroImg={heroImg}
 			/>
-
 			<div className="grid justify-content-center align-itens-center mt-8 px-6">
 				<div className="col-12">
 					<h1 className="title p-overflow-hidden">Nossos serviços</h1>

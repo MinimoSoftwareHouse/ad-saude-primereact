@@ -1,7 +1,8 @@
-import './Treinamentos.css';
 import { Card } from 'primereact/card';
+import { Helmet } from 'react-helmet';
 import Home from '../Home/Home.jsx';
 import heroImg from '../../assets/heroImg7.jpg';
+
 const Treinamentos = () => {
 	const listItemData = [
 		'Treinamento de integração voltado para atividade de cada empresa',
@@ -20,6 +21,9 @@ const Treinamentos = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Treinamentos de Segurança | Amedseg</title>
+			</Helmet>
 			<>
 				<Home
 					title="Treinamentos"

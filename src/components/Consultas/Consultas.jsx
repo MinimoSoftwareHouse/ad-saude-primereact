@@ -1,5 +1,6 @@
 import './Consultas.css';
 import { Card } from 'primereact/card';
+import { Helmet } from 'react-helmet';
 
 import Home from '../Home/Home.jsx';
 import heroImg from '../../assets/heroImg6.jpg';
@@ -9,12 +10,13 @@ const Consultas = () => {
 
 	return (
 		<>
-			<>
-				<Home
-					title="Consultas"
-					heroImg={heroImg}
-				/>
-			</>
+			<Helmet>
+				<title>Consultas - Amedseg | Clínica Médica e Serviços de Saúde</title>
+			</Helmet>
+			<Home
+				title="Consultas"
+				heroImg={heroImg}
+			/>
 			<div className="grid justify-content-center align-itens-center mt-8 px-6">
 				<div className="col-12">
 					<h1 className="title p-overflow-hidden">Especialidades</h1>
@@ -32,4 +34,5 @@ const Consultas = () => {
 		</>
 	);
 };
+
 export default Consultas;

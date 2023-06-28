@@ -1,13 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Helmet } from 'react-helmet';
+import App from './App.jsx';
 import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.min.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+ReactDOM.render(
+	<React.StrictMode>
+		<Helmet>
+			<title>Amedseg | Clínica Médica e Serviços de Saúde</title>
+		</Helmet>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root')
+);

@@ -1,7 +1,12 @@
 import './Contato.css';
+import { Helmet } from 'react-helmet';
+
 export default function Contato() {
 	return (
 		<>
+			<Helmet>
+				<title>Contato - Entre em contato com a Amedseg | Amedseg</title>
+			</Helmet>
 			<div className="grid">
 				<div className="container_form">
 					<h1 className="text-green overflow-hidden">
@@ -17,7 +22,8 @@ export default function Contato() {
 						<input
 							type="hidden"
 							name="_subject"
-							value="Novo contato vindo do site!"></input>
+							value="Novo contato vindo do site!"
+						/>
 						<div className="style-form-input full">
 							<input
 								type="hidden"

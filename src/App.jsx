@@ -1,5 +1,5 @@
-import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar.jsx';
@@ -9,12 +9,16 @@ import Servicos from './components/Serviços/Serviços.jsx';
 import Treinamentos from './components/Treinamentos/Treinamentos.jsx';
 import Contato from './components/Contato/Contato';
 import Obrigado from './components/Contato/Obrigado.jsx';
-import Zap from './components/Whatsapp/Whatsapp';
+import Whatsapp from './components/Whatsapp/Whatsapp';
 import Exames from './components/Exames/Exames';
 import Consultas from './components/Consultas/Consultas';
+
 function App() {
 	return (
 		<>
+			<Helmet>
+				<title>Amedseg - Segurança do Trabalho e Medicina Ocupacional</title>
+			</Helmet>
 			<Router>
 				<Navbar />
 				<Routes>
@@ -34,35 +38,42 @@ function App() {
 					<Route
 						exact
 						path="/quem-somos"
-						element={<QuemSomos />}></Route>
+						element={<QuemSomos />}
+					/>
 					<Route
 						exact
 						path="/medicina-do-trabalho"
-						element={<Servicos />}></Route>
+						element={<Servicos />}
+					/>
 					<Route
 						exact
 						path="/treinamentos"
-						element={<Treinamentos />}></Route>
+						element={<Treinamentos />}
+					/>
 					<Route
 						exact
 						path="/contato"
-						element={<Contato />}></Route>
+						element={<Contato />}
+					/>
 					<Route
 						exact
 						path="/obrigado"
-						element={<Obrigado />}></Route>
+						element={<Obrigado />}
+					/>
 					<Route
 						exact
 						path="/consultas"
-						element={<Consultas />}></Route>
+						element={<Consultas />}
+					/>
 					<Route
 						exact
 						path="/exames"
-						element={<Exames />}></Route>
+						element={<Exames />}
+					/>
 				</Routes>
 				<Footer />
 			</Router>
-			<Zap />
+			<Whatsapp />
 		</>
 	);
 }
